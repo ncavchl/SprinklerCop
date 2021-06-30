@@ -37,3 +37,7 @@ Spring Study (입문-기본-핵심기술) - https://www.inflearn.com/roadmaps/37
 ### MVC와 템플릿 엔진
 - model view controller
 - 
+
+### API
+- api 방식으로 데이터를 뿌린다.
+- 
