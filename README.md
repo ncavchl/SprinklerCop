@@ -31,8 +31,8 @@ Spring Study (입문-기본-핵심기술) - https://www.inflearn.com/roadmaps/37
 - MVC와 템플릿 엔진
 - API
 
-#정적 컨텐츠 제공
+# 정적 컨텐츠 제공
 - 그냥 html 파일 추가후 url 뒤에 /htmltes.html 치면 출력됨
 
-#MVC와 템플릿 엔진
+# MVC와 템플릿 엔진
 - 
