@@ -16,3 +16,7 @@ Spring Study (입문-기본-핵심기술) - https://www.inflearn.com/roadmaps/37
 - spring boot start web : 톰캣웹서버, 스프링 웹 mvc 
 - 스프링부트, 스프링코어, 로깅
 - index.html 자동으로 찾음
+- 컨트롤러에서 리턴 값으로 문자를 반환하면 뷰 리졸버(viewResolver)가 화면 찾아서 처리함
+  - 스프링 부트 템플릿 엔진 기본 viewName 매핑
+  - resources:templates/ + (viewname) + .html
+
