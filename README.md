@@ -20,3 +20,7 @@ Spring Study (입문-기본-핵심기술) - https://www.inflearn.com/roadmaps/37
   - 스프링 부트 템플릿 엔진 기본 viewName 매핑
   - resources:templates/ + (viewname) + .html
 
+#빌드하기 
+- gradle build
+- cd build/libs
+- 안에 파일 java -jar 파일명 으로 빌드
