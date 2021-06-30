@@ -24,3 +24,9 @@ Spring Study (입문-기본-핵심기술) - https://www.inflearn.com/roadmaps/37
 - gradle build
 - cd build/libs
 - 안에 파일 java -jar 파일명 으로 빌드
+
+
+## 웹개발 방식
+- 정적 컨텐츠
+- MVC와 템플릿 엔진
+- API
