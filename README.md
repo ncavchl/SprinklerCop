@@ -46,3 +46,7 @@ Spring Study (입문-기본-핵심기술) - https://www.inflearn.com/roadmaps/37
 
 ## 테스트 케이스
 ### junit 을 활용
+
+### spring bean을 등록하는 2가지 방법
+- 컴포넌트 스캔과 자동 의존관계 설정
+- 자바 코드로 직접 스프링 빈 등록하기 
