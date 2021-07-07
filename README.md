@@ -42,3 +42,7 @@ Spring Study (입문-기본-핵심기술) - https://www.inflearn.com/roadmaps/37
 - api 방식으로 데이터를 뿌린다.
 - ResponseBody : hthtp 응답 바디부에 직접 넣겠다.
 - 객체(json)으로 반환하는 방식
+
+
+## 테스트 케이스
+### junit 을 활용
