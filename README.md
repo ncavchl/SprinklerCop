@@ -62,3 +62,11 @@ Spring Study (입문-기본-핵심기술) - https://www.inflearn.com/roadmaps/37
 ## H2 데이터 베이스
 - 개발이나 테스트 용도로 가볍고 편리한 DB, 웹화면 제공
 - https://www.h2database.com/
+
+## 순수 jdbc
+
+## 스프링 jdbctemplage
+
+## jpa
+
+## 스프링 데이터 jpa
