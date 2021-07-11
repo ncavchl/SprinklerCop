@@ -70,3 +70,7 @@ Spring Study (입문-기본-핵심기술) - https://www.inflearn.com/roadmaps/37
 ## jpa
 
 ## 스프링 데이터 jpa
+
+
+## AOP
+- 모든 메소드의 호출 시간을 측정하고 싶을때
