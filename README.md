@@ -6,8 +6,8 @@
 - 스프링 db 데이터 접근 기술
 - 실전! 스프링 부트
 
-Spring Study (입문-기본-핵심기술) - https://www.inflearn.com/roadmaps/373
-## 2021.06.16~
+#### (1) Spring Study (입문-기본-핵심기술) - https://www.inflearn.com/roadmaps/373
+## 2021.06.16 ~ 2021.07.12
 
 #2021.06.30
 - maven, gradle
@@ -76,3 +76,7 @@ Spring Study (입문-기본-핵심기술) - https://www.inflearn.com/roadmaps/37
 - 모든 메소드의 호출 시간을 측정하고 싶을때
 - Aspect Oriented Programming
 - 공통관심사항 핵심관심사항 분리 / 원하는 곳에 공통관심사항 적용
+
+
+#### (2) 스프링 핵심원리 기본편 https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC-%EA%B8%B0%EB%B3%B8%ED%8E%B8#curriculum
+## 2021.07.12 ~
