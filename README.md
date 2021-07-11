@@ -74,3 +74,5 @@ Spring Study (입문-기본-핵심기술) - https://www.inflearn.com/roadmaps/37
 
 ## AOP
 - 모든 메소드의 호출 시간을 측정하고 싶을때
+- Aspect Oriented Programming
+- 공통관심사항 핵심관심사항 분리 / 원하는 곳에 공통관심사항 적용
