@@ -83,3 +83,10 @@
 #### (2) 스프링 핵심원리 기본편 https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC-%EA%B8%B0%EB%B3%B8%ED%8E%B8#curriculum
 ## 2021.07.12 ~
 29 개념 복습
+SOLID
+클린코드로 유명한 로버트 마틴이 좋은 객체 지향 설계의 5가지 원칙을 정리
+• SRP: 단일 책임 원칙(single responsibility principle)
+• OCP: 개방-폐쇄 원칙 (Open/closed principle)
+• LSP: 리스코프 치환 원칙 (Liskov substitution principle)
+• ISP: 인터페이스 분리 원칙 (Interface segregation principle)
+• DIP: 의존관계 역전 원칙 (Dependency inversion principle)
