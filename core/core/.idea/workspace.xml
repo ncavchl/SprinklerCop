@@ -12,16 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="517935c0-85a4-4c9d-ae4a-7ee47c60732c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/core/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/MemberApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/OrderApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/discount/RateDiscountPolicy.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/hello/core/discount/RateDiscountPolicy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/member/MemberServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/order/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/hello/core/order/OrderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/discount/RateDiscountPolicyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/hello/core/discount/RateDiscountPolicyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/member/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/member/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/order/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/hello/core/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/member/MemberServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/order/OrderServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/MemberApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/MemberApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/OrderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/OrderApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/member/MemberServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/member/MemberServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/order/OrderServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/order/OrderServiceTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,6 +122,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MemberServiceTest.join" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.member.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.member" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.member.MemberServiceTest" />
+      <option name="METHOD_NAME" value="join" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.order" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.order.OrderServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderServiceTest.createOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
@@ -136,21 +165,6 @@
       <option name="MAIN_CLASS_NAME" value="hello.core.order.OrderServiceTest" />
       <option name="METHOD_NAME" value="createOrder" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RateDiscountPolicyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.discount.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.discount" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.discount.RateDiscountPolicyTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -171,27 +185,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello.core in core.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.OrderServiceTest.createOrder" />
-        <item itemvalue="JUnit.RateDiscountPolicyTest.vip_x" />
-        <item itemvalue="JUnit.RateDiscountPolicyTest" />
-        <item itemvalue="JUnit.hello.core in core.test" />
+        <item itemvalue="JUnit.MemberServiceTest.join" />
+        <item itemvalue="JUnit.OrderServiceTest" />
         <item itemvalue="Application.OrderApp" />
+        <item itemvalue="JUnit.RateDiscountPolicyTest.vip_x" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +242,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/hello/core/order/OrderServiceTest.java</url>
-          <line>14</line>
+          <line>24</line>
           <properties class="hello.core.order.OrderServiceTest" method="createOrder">
             <option name="EMULATED" value="true" />
           </properties>
