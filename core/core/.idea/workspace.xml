@@ -13,8 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="517935c0-85a4-4c9d-ae4a-7ee47c60732c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/MemberApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/MemberApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/OrderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/OrderApp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MemberApp">
+  <component name="RunManager" selected="Application.OrderApp">
     <configuration name="MemberApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hello.core.MemberApp" />
       <module name="core.main" />
@@ -180,8 +179,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MemberApp" />
         <item itemvalue="Application.OrderApp" />
+        <item itemvalue="Application.MemberApp" />
         <item itemvalue="JUnit.OrderServiceTest.createOrder" />
         <item itemvalue="JUnit.MemberServiceTest.join" />
         <item itemvalue="JUnit.OrderServiceTest" />
@@ -227,7 +226,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/hello/core/OrderApp.java</url>
-          <line>12</line>
+          <line>14</line>
           <properties class="hello.core.OrderApp" method="main">
             <option name="EMULATED" value="true" />
           </properties>
