@@ -12,14 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="517935c0-85a4-4c9d-ae4a-7ee47c60732c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/scan/filter/BeanA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/scan/filter/BeanB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/scan/filter/ComponentFilerAppConfigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/scan/filter/MyExcludeComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/scan/filter/MyIncludeComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/AutoAppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/hello/core/AutoAppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/AutoAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/AutoAppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
