@@ -12,10 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="517935c0-85a4-4c9d-ae4a-7ee47c60732c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/beandefinition/BeanDefinitionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/singleton/SingletonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/appConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/appConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/appConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/appConfig.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,22 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BeanDefinitionTest">
-    <configuration name="ApplicationContextBasicFindTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.beanfind.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.beanfind" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.beanfind.ApplicationContextBasicFindTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SingletonTest">
     <configuration name="ApplicationContextSameBeanFindTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
@@ -167,6 +150,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingletonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.singleton" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.singleton.SingletonTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="XmlAppContext.xmlAppContext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
@@ -185,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SingletonTest" />
         <item itemvalue="JUnit.BeanDefinitionTest" />
         <item itemvalue="JUnit.XmlAppContext.xmlAppContext" />
         <item itemvalue="JUnit.ApplicationContextSameBeanFindTest.findAllBeanByType" />
         <item itemvalue="JUnit.ApplicationContextSameBeanFindTest" />
-        <item itemvalue="JUnit.ApplicationContextBasicFindTest" />
       </list>
     </recent_temporary>
   </component>
