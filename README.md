@@ -155,3 +155,9 @@
 ### 컴포넌트 스캔
 - Appconfig에서 등록한 @Bean들은 일일히 추가해야함.
 - 컴포넌트 스캔방식으로 자동으로 의존관계 주입이 되도록 가능 / @Bean이 들어가야 하는 곳에 (@Autowried, @Component) 추가
+- 탐색할 패키지 위치 지정
+```
+@ComponentScan(
+basePackages = "hello.core",
+}
+```
