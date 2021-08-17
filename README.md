@@ -167,3 +167,5 @@ basePackages = "hello.core",
   - 수정자 주입(setter 주입)
   - 필드 주입
   - 일반 메서드 주입
+
+- 필터타입
