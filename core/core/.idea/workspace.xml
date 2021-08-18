@@ -11,58 +11,7 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="517935c0-85a4-4c9d-ae4a-7ee47c60732c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/core/annotation/MainDiscountPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/Autowired/AllBeanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/AppConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/AutoAppConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/CoreApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/MemberApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/OrderApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/discount/DiscountPolicy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/discount/FixDiscountPolicy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/discount/RateDiscountPolicy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/member/Grade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/member/Member.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/member/MemberRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/member/MemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/member/MemberServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/member/MemoryMemberRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/order/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/order/OrderService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/order/OrderServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/Autowired/AutowiredTest$TestBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/Autowired/AutowiredTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/CoreApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/beandefinition/BeanDefinitionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/beanfind/ApplicationContextBasicFindTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/beanfind/ApplicationContextExtendsFindTest$TestConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/beanfind/ApplicationContextExtendsFindTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/beanfind/ApplicationContextInfoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/beanfind/ApplicationContextSameBeanFindTest$SameBeanConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/beanfind/ApplicationContextSameBeanFindTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/discount/RateDiscountPolicyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/member/MemberServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/order/OrderServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/scan/AutoAppConfigTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/scan/filter/BeanA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/scan/filter/BeanB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/scan/filter/ComponentFilerAppConfigTest$ComponentFilterAppConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/scan/filter/ComponentFilerAppConfigTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/scan/filter/MyExcludeComponent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/scan/filter/MyIncludeComponent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/singleton/ConfigurationSingletonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/singleton/SingletonService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/singleton/SingletonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/singleton/StatefulService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/singleton/StatefulServiceTest$TestConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/singleton/StatefulServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/xml/XmlAppContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/discount/RateDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/discount/RateDiscountPolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/order/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/discount/RateDiscountPolicyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/discount/RateDiscountPolicyTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="517935c0-85a4-4c9d-ae4a-7ee47c60732c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
