@@ -169,3 +169,16 @@ basePackages = "hello.core",
   - 일반 메서드 주입
 
 - 필터타입
+
+### lombok 적용
+롬복 라이브러리가 제공하는 @RequiredArgsConstructor 기능을 사용하면 final이 붙은 필드를 모아서
+생성자를 자동으로 만들어준다. (다음 코드에는 보이지 않지만 실제 호출 가능하다.)
+최종 결과는 다음과 같다! 정말 간결하지 않은가!
+``` java
+@Component
+@RequiredArgsConstructor
+public class OrderServiceImpl implements OrderService {
+private final MemberRepository memberRepository;
+private final DiscountPolicy discountPolicy;
+}
+```
