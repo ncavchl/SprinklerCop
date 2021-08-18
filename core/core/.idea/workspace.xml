@@ -12,12 +12,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="517935c0-85a4-4c9d-ae4a-7ee47c60732c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/core/annotation/MainDiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/Autowired/AllBeanTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/AutoAppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/CoreApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/MemberApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/OrderApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/discount/DiscountPolicy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/discount/FixDiscountPolicy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/discount/RateDiscountPolicy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/member/Grade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/member/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/member/MemberRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/member/MemberService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/member/MemberServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/member/MemoryMemberRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/order/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/order/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/core/order/OrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/Autowired/AutowiredTest$TestBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/Autowired/AutowiredTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/CoreApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/beandefinition/BeanDefinitionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/beanfind/ApplicationContextBasicFindTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/beanfind/ApplicationContextExtendsFindTest$TestConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/beanfind/ApplicationContextExtendsFindTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/beanfind/ApplicationContextInfoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/beanfind/ApplicationContextSameBeanFindTest$SameBeanConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/beanfind/ApplicationContextSameBeanFindTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/discount/RateDiscountPolicyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/member/MemberServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/order/OrderServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/scan/AutoAppConfigTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/scan/filter/BeanA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/scan/filter/BeanB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/scan/filter/ComponentFilerAppConfigTest$ComponentFilterAppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/scan/filter/ComponentFilerAppConfigTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/scan/filter/MyExcludeComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/scan/filter/MyIncludeComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/singleton/ConfigurationSingletonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/singleton/SingletonService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/singleton/SingletonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/singleton/StatefulService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/singleton/StatefulServiceTest$TestConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/singleton/StatefulServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/core/xml/XmlAppContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/discount/RateDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/discount/RateDiscountPolicy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/order/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/discount/RateDiscountPolicyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/discount/RateDiscountPolicyTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,33 +155,41 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AutowiredTest.AutowiredOption">
-    <configuration name="AutoAppConfigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AllBeanTest.findAllBean">
+    <configuration name="All in core.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllBeanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hello.core.scan.*" />
+          <option name="PATTERN" value="hello.core.Autowired.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hello.core.scan" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.scan.AutoAppConfigTest" />
+      <option name="PACKAGE_NAME" value="hello.core.Autowired" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.Autowired.AllBeanTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoAppConfigTest.basicScan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AllBeanTest.findAllBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hello.core.scan.*" />
+          <option name="PATTERN" value="hello.core.Autowired.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hello.core.scan" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.scan.AutoAppConfigTest" />
-      <option name="METHOD_NAME" value="basicScan" />
+      <option name="PACKAGE_NAME" value="hello.core.Autowired" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.Autowired.AllBeanTest" />
+      <option name="METHOD_NAME" value="findAllBean" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,43 +211,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComponentFilerAppConfigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RateDiscountPolicyTest.vip_x" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hello.core.scan.filter.*" />
+          <option name="PATTERN" value="hello.core.discount.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hello.core.scan.filter" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.scan.filter.ComponentFilerAppConfigTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConfigurationSingletonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.singleton" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.singleton.ConfigurationSingletonTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="hello.core.discount" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.discount.RateDiscountPolicyTest" />
+      <option name="METHOD_NAME" value="vip_x" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AllBeanTest.findAllBean" />
+        <item itemvalue="JUnit.AllBeanTest" />
+        <item itemvalue="JUnit.RateDiscountPolicyTest.vip_x" />
+        <item itemvalue="JUnit.All in core.test" />
         <item itemvalue="JUnit.AutowiredTest.AutowiredOption" />
-        <item itemvalue="JUnit.ConfigurationSingletonTest" />
-        <item itemvalue="JUnit.AutoAppConfigTest.basicScan" />
-        <item itemvalue="JUnit.ComponentFilerAppConfigTest" />
-        <item itemvalue="JUnit.AutoAppConfigTest" />
       </list>
     </recent_temporary>
   </component>
