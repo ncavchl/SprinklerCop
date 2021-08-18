@@ -184,6 +184,6 @@ private final DiscountPolicy discountPolicy;
 ```
 
 ### 조회 대상 빈이 2개 이상일 때 해결 방법
-@Autowired 필드 명 매칭
-@Qualifier @Qualifier끼리 매칭 빈 이름 매칭
-@Primary 사용
+- @Autowired 필드 명 매칭
+- @Qualifier @Qualifier끼리 매칭 빈 이름 매칭
+- @Primary 사용
