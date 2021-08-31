@@ -11,7 +11,14 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="517935c0-85a4-4c9d-ae4a-7ee47c60732c" name="Default Changelist" comment="" />
+    <list default="true" id="517935c0-85a4-4c9d-ae4a-7ee47c60732c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/lifecycle/BeanLifeCycleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/lifecycle/NetworkClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/hello/core/Autowired/AllBeanTest$DiscountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/hello/core/Autowired/AllBeanTest$DiscountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/hello/core/Autowired/AllBeanTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/hello/core/Autowired/AllBeanTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/Autowired/AllBeanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/Autowired/AllBeanTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +111,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AllBeanTest.findAllBean">
+  <component name="RunManager" selected="JUnit.BeanLifeCycleTest.lifeCycleTest">
     <configuration name="All in core.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -144,17 +151,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutowiredTest.AutowiredOption" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BeanLifeCycleTest.lifeCycleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hello.core.Autowired.*" />
+          <option name="PATTERN" value="hello.core.lifecycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hello.core.Autowired" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.Autowired.AutowiredTest" />
-      <option name="METHOD_NAME" value="AutowiredOption" />
+      <option name="PACKAGE_NAME" value="hello.core.lifecycle" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.lifecycle.BeanLifeCycleTest" />
+      <option name="METHOD_NAME" value="lifeCycleTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AllBeanTest.findAllBean" />
+        <item itemvalue="JUnit.BeanLifeCycleTest.lifeCycleTest" />
         <item itemvalue="JUnit.AllBeanTest" />
+        <item itemvalue="JUnit.AllBeanTest.findAllBean" />
         <item itemvalue="JUnit.RateDiscountPolicyTest.vip_x" />
         <item itemvalue="JUnit.All in core.test" />
-        <item itemvalue="JUnit.AutowiredTest.AutowiredOption" />
       </list>
     </recent_temporary>
   </component>
@@ -246,6 +253,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/hello/core/lifecycle/BeanLifeCycleTest.java</url>
+          <line>10</line>
+          <properties class="hello.core.lifecycle.BeanLifeCycleTest" method="lifeCycleTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/hello/core/singleton/ConfigurationSingletonTest.java</url>

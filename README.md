@@ -187,3 +187,21 @@ private final DiscountPolicy discountPolicy;
 - @Autowired 필드 명 매칭
 - @Qualifier @Qualifier끼리 매칭 빈 이름 매칭
 - @Primary 사용
+
+
+
+### 빈 생명주기 콜백
+
+**스프링 빈의 이벤트 라이프사이클**
+스프링 컨테이너 생성 -> 스프링 빈 생성 -> 의존관계 주입 -> 초기화 콜백 -> 사용 -> 소멸전 콜백 -> 스프링 종료
+
+- 초기화 콜백: 빈이 생성되고, 빈의 의존관계 주입이 완료된 후 호출
+- 소멸전 콜백: 빈이 소멸되기 직전에 호출
+
+
+
+#### 스프링은 크게 3가지 방법으로 빈 생명주기 콜백을 지원한다.
+- 인터페이스(InitializingBean, DisposableBean)
+- 설정 정보에 초기화 메서드, 종료 메서드 지정
+- @PostConstruct, @PreDestory 애노테이션 지원
+
