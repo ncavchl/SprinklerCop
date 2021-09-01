@@ -12,13 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="517935c0-85a4-4c9d-ae4a-7ee47c60732c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/scope/SingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/scope/PrototypeProviderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/scope/SingletonWithPrototypeTest1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/hello/core/lifecycle/BeanLifeCycleTest$LifeCycleConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/hello/core/lifecycle/BeanLifeCycleTest$LifeCycleConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/hello/core/lifecycle/NetworkClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/hello/core/lifecycle/NetworkClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/lifecycle/BeanLifeCycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/lifecycle/BeanLifeCycleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/lifecycle/NetworkClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/lifecycle/NetworkClient.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,11 +89,11 @@
       <recent name="hello.core.singleton" />
       <recent name="hello.core.discount" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="hello.core.scan.filter" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hello.core.scan.filter" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -112,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.hello.core.scope in core.test">
+  <component name="RunManager" selected="JUnit.PrototypeProviderTest">
     <configuration name="AllBeanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
@@ -124,22 +120,6 @@
       <option name="PACKAGE_NAME" value="hello.core.Autowired" />
       <option name="MAIN_CLASS_NAME" value="hello.core.Autowired.AllBeanTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AllBeanTest.findAllBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.Autowired.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.Autowired" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.Autowired.AllBeanTest" />
-      <option name="METHOD_NAME" value="findAllBean" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,18 +140,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RateDiscountPolicyTest.vip_x" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrototypeProviderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hello.core.discount.*" />
+          <option name="PATTERN" value="hello.core.scope.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hello.core.discount" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.discount.RateDiscountPolicyTest" />
-      <option name="METHOD_NAME" value="vip_x" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="hello.core.scope" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.scope.PrototypeProviderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonWithPrototypeTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.scope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.scope" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.scope.SingletonWithPrototypeTest1" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -192,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PrototypeProviderTest" />
+        <item itemvalue="JUnit.SingletonWithPrototypeTest1" />
         <item itemvalue="JUnit.hello.core.scope in core.test" />
         <item itemvalue="JUnit.BeanLifeCycleTest.lifeCycleTest" />
         <item itemvalue="JUnit.AllBeanTest" />
-        <item itemvalue="JUnit.AllBeanTest.findAllBean" />
-        <item itemvalue="JUnit.RateDiscountPolicyTest.vip_x" />
       </list>
     </recent_temporary>
   </component>
