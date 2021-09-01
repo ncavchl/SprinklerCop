@@ -12,12 +12,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="517935c0-85a4-4c9d-ae4a-7ee47c60732c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/lifecycle/BeanLifeCycleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/lifecycle/NetworkClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/scope/SingletonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/hello/core/Autowired/AllBeanTest$DiscountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/hello/core/Autowired/AllBeanTest$DiscountService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/hello/core/Autowired/AllBeanTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/hello/core/Autowired/AllBeanTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/Autowired/AllBeanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/Autowired/AllBeanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/hello/core/lifecycle/BeanLifeCycleTest$LifeCycleConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/hello/core/lifecycle/BeanLifeCycleTest$LifeCycleConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/hello/core/lifecycle/NetworkClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/hello/core/lifecycle/NetworkClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/lifecycle/BeanLifeCycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/lifecycle/BeanLifeCycleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/core/lifecycle/NetworkClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/core/lifecycle/NetworkClient.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,15 +112,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BeanLifeCycleTest.lifeCycleTest">
-    <configuration name="All in core.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.hello.core.scope in core.test">
     <configuration name="AllBeanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
@@ -183,13 +176,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="hello.core.scope in core.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.scope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.scope" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.hello.core.scope in core.test" />
         <item itemvalue="JUnit.BeanLifeCycleTest.lifeCycleTest" />
         <item itemvalue="JUnit.AllBeanTest" />
         <item itemvalue="JUnit.AllBeanTest.findAllBean" />
         <item itemvalue="JUnit.RateDiscountPolicyTest.vip_x" />
-        <item itemvalue="JUnit.All in core.test" />
       </list>
     </recent_temporary>
   </component>
