@@ -8,6 +8,7 @@
 
 #### (1) Spring Study (입문-기본-핵심기술) - https://www.inflearn.com/roadmaps/373
 ## 2021.06.16 ~ 2021.07.12
+## 복습기간 2주
 
 #2021.06.30
 - maven, gradle
